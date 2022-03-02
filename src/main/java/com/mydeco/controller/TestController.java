@@ -11,4 +11,11 @@ public class TestController {
 		System.out.println("test");
 		return "user/modifyForm";
 	}
+	
+	@RequestMapping("/mydiary")
+		public String mydiary() {
+			System.out.println("mydiary");
+			return "mydiary/List";
+		}
+	
 }
