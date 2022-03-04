@@ -73,16 +73,13 @@
   
  }
 
- .cal_nav .go-prev{
-
-    
- }
-
- .cal_nav .go-next{
-
- }
+ 
 
 .li_nav{
+    margin-top: 20px;
+}
+
+.li_nav2{
     margin-top: 20px;
 }
 
@@ -276,12 +273,12 @@ a.btn-diarylist {
 
 
  .mydiarydiv4{
-    height:500px; 
+    height:250px; 
     width: 705px;
     background-color: #ffffff;
-    border: 1px solid #ebebeb;
-    overflow-y: auto;
-    margin-top: 25px;
+    /*border: 1px solid #ebebeb;*/
+    /*overflow-y: auto;*/
+    /*margin-top: 25px;*/
 }
 
 /*더 얇게하고싶음*/
@@ -306,6 +303,21 @@ a.btn-diarylist {
     background-color: #686099;
     color: #ffffff;
     margin-top: 23px;
+  
+ }
+
+ .cal_nav5{
+    width:705px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SCDream4";
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #686099;
+    color: #ffffff;
+    margin-top: 7px;
   
  }
 
@@ -372,6 +384,7 @@ a.btn-diarylist5 {
     width: 80px;
     height: 80px;
     object-fit: cover;
+    justify-content: center;
 }
 
 .mydiaryText{
@@ -384,7 +397,19 @@ a.btn-diarylist5 {
 }
 
 .mydiaryText-list{
-   margin-top: -20px;
+   
+   width: 550px;
+   padding-top: 15px;
+   padding-left: 10px;
+  
+}
+
+.mydiaryText-list2{
+    width:550px; 
+    height:155px; 
+    float:left; 
+    padding-top: 20px; 
+    padding-left: 10px;
 }
 
 .mydiaryImg{
@@ -409,9 +434,20 @@ div.mydiary-Date{
    margin-left: 5px;
 }
 
+.mydiary-weather2{
+    width: 21px;
+    height: 21px;
+    margin-top: -8px;
+    margin-left: -5px;
+ }
+
 .mydiary-list-box{
     margin-top: 40px;
     margin-left: 40px;
+}
+
+.mydiary-list-box2{
+    width: 705px; height: 155px;
 }
 
 
@@ -424,6 +460,14 @@ div.mydiary-Date{
     padding-bottom: 20px;
     padding-left: 10px;
     margin-top: -5px;
+}
+
+.mydiaryText7{
+    display: flex;
+    font-size: 16px;
+    font-family: 'SCDream4';
+    padding-bottom: 20px;
+   
 }
 
 .mydiaryText6.mydiary-content{
@@ -446,6 +490,28 @@ div.mydiary-Date{
     
 }
 
+.mydiaryImg-innerbox7{
+    width: 100px; height: 100px;
+}
+
+.mydiaryImg-box7{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*float: right;*/
+   
+    
+}
+
+.mydiary-box7-support{
+    width: 155px; 
+    height:155px; 
+    float:right;
+}
+
 .diaryline6{ 
     border: 1px solid #686099; 
     width: 600px;
@@ -453,6 +519,15 @@ div.mydiary-Date{
     margin-left: -100px;
     margin-bottom: 10px;
     float: left;
+}
+
+.diaryline7{ 
+    border: 1px solid #686099; 
+    width: 705px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: -5px;
+    margin-top: -45px;
 }
 
 
@@ -664,4 +739,49 @@ input[type=checkbox].mydiary-checkbox{
     padding: 0px 10px;
     text-shadow: 1px 1px 2px gray;
     color: white;
+}
+
+.glass_new{
+    position : relative;
+    width: 17px;
+    height: 17px;
+    margin: 0;
+}
+
+button.btn-search{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    line-height: 10px;
+    font-family: 'SCDream4';
+    border: 1px solid #d8d8d8;
+    color: #6667AB;
+    background-color: #ececec;
+    float: right;
+}   
+
+/*
+button.btn-search:hover{
+    background-color: #cccccc;
+}*/
+
+.search_new{
+    width: 150px;
+    height: 30px;
+    position: relative;   
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+
+.sectionLine{
+    width: 705px;
+    border-bottom: 1px solid #686099;
+}
+
+.opensetting{
+    font-family: 'SCDream4';
+    font-size: 13px;
+    padding-bottom: 10px;
 }
