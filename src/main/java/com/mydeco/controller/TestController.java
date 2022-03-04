@@ -11,4 +11,16 @@ public class TestController {
 		System.out.println("test");
 		return "user/modifyForm";
 	}
+	
+	@RequestMapping("/leave")
+	public String leave() {
+		System.out.println("leave");
+		return "user/user-leave";
+	}
+	
+	@RequestMapping("/sell")
+	public String seller() {
+		System.out.println("seller");
+		return "myshop/shop-likedList";
+	}
 }
