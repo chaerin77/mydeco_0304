@@ -26,7 +26,6 @@ a:hover {text-decoration: none; color: #000000;}
 #header>h1 {
     width: 200px;
     height: 100px;
-    font-family: 'main';
     float: left;
     padding: 0px 0px 0px 0px;
     margin: 20px 0px 0px 30px;
@@ -38,7 +37,8 @@ a:hover {text-decoration: none; color: #000000;}
 }
 
 #category {
-    font-family: 'main';
+    font-family: 'SCDream4';
+    font-weight: bold; 
     float: left;
     margin: 30px 10px 30px 10px;
     text-align: center;
@@ -52,7 +52,8 @@ a:hover {text-decoration: none; color: #000000;}
 
 #user {
     margin: 0px;
-    font-family: 'main';
+    font-family: 'SCDream4';
+    font-weight: bold; 
     float: left;
     text-align: center;
 }
@@ -98,8 +99,10 @@ a:hover {text-decoration: none; color: #000000;}
 /* aside */
 #aside #title {
     font-family: 'SCDream4';
-    font-weight: bold; font-size: 20px;
-    color:#686099;
+    font-weight: bold; 
+    font-size: 20px;
+    background-color:#686099;
+    color: white;
     border: none;
 }
 
